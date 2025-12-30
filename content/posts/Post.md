@@ -4,4 +4,3 @@ date: 2025-01-02
 draft: true
 ---
 
-Hello from Obsidian 🎉
