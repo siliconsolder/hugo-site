@@ -10,3 +10,6 @@ layouts.bak/
 
 # OS / editor
 .DS_Store
+
+# Obsidian
+.obsidian/
