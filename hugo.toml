@@ -1,0 +1,80 @@
+########################################
+# Core settings
+########################################
+baseURL = "http://localhost:1313/"
+languageCode = "en"
+title = "Michael"
+theme = "blowfish"
+
+enableRobotsTXT = true
+
+########################################
+# Pagination (Hugo >= 0.128)
+########################################
+[pagination]
+  pagerSize = 10
+
+########################################
+# Languages
+########################################
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+
+########################################
+# Blowfish main configuration
+########################################
+[params]
+  colorScheme = "auto"              # auto | light | dark
+  defaultAppearance = "auto"
+  autoSwitchAppearance = true
+
+  enableSearch = true
+  enableCodeCopy = true
+  enableImageLazyLoading = true
+  enableHeadingAnchors = true
+
+  mainSections = ["posts"]
+
+########################################
+# Author / profile
+########################################
+[params.author]
+  name = "Michael Swanson"
+  headline = ""
+  bio = "Technology, systems, automation and smart homes."
+#  image = "/img/avatar.png"
+
+  links = [
+    { linkedin = "https://www.linkedin.com/in/carlmichaelswanson/" },
+    { github = "https://github.com/siliconsolder" },
+    { email = "mailto:michael@bitli.se" }
+  ]
+
+########################################
+# Main menu
+########################################
+[[menu.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  pageRef = "posts"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  pageRef = "about"
+  weight = 3
+
+########################################
+# Markup / Markdown rendering
+########################################
+[markup]
+  [markup.highlight]
+    noClasses = false
+[markup.goldmark.renderer]
+  unsafe = true

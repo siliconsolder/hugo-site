@@ -1,0 +1,25 @@
+<div id="rotating-headline"
+     style="font-size:1.25rem; font-weight:600; margin-top:0.75rem; min-height:1.6em;">
+</div>
+
+<script>
+(() => {
+  const headlines = [
+    "Designing systems that are meant to last.",
+    "Engineering calm, boring production systems.",
+    "I build systems that don’t wake you up at night.",
+    "Less chaos. More structure. Better systems.",
+    "Reliable systems over clever solutions.",
+    "From enterprise platforms to smart homes.",
+    "Making technology quieter and more predictable.",
+    "Automation — when it actually makes sense.",
+    "Turning complexity into clarity.",
+    "Stability is a feature, not an accident."
+  ];
+
+  const el = document.getElementById("rotating-headline");
+  if (!el) return;
+
+  el.textContent = headlines[Math.floor(Math.random() * headlines.length)];
+})();
+</script>

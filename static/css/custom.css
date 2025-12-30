@@ -1,0 +1,6 @@
+#rotating-headline {
+  transition: opacity 180ms ease;
+}
+#rotating-headline.fade {
+  opacity: 0.25;
+}

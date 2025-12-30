@@ -1,0 +1,7 @@
+{{ with site.Params.author }}
+  <div class="author">
+    <h1>{{ .name }}</h1>
+    <p data-author-headline></p>
+    {{ with .bio }}<p class="author-bio">{{ . }}</p>{{ end }}
+  </div>
+{{ end }}

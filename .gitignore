@@ -1,0 +1,12 @@
+# Hugo build output
+public/
+resources/
+
+# Hugo lock file
+.hugo_build.lock
+
+# Temp / backups
+layouts.bak/
+
+# OS / editor
+.DS_Store
