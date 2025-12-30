@@ -3,7 +3,7 @@
 ########################################
 baseURL = "http://localhost:1313/"
 languageCode = "en"
-title = "Michael"
+title = "Bitli. Bridging Business & Scalable systems"
 theme = "blowfish"
 
 enableRobotsTXT = true
@@ -43,7 +43,7 @@ enableRobotsTXT = true
 [params.author]
   name = "Michael Swanson"
   headline = ""
-  bio = "Technology, systems, automation and smart homes."
+  bio = "Senior Solutions Manager bridging business requirements and IT. I design and operate reliable systems with a focus on ownership, automation, and long-term value."
 #  image = "/img/avatar.png"
 
   links = [
